@@ -37,3 +37,14 @@ R --no-save < bG2bW.R
   ```
   R --no-save < ADPr-DE.R
   ```
+  - few examples of found ADPr dis-regulated regions (if there were multiple adjacent tiles showing the same significant disregulation, I merged the tile regions. That's why the red boxes r not all of the same size)
+
+
+<img width="1000" height="1000" alt="ARMC8-20260413" src="https://github.com/user-attachments/assets/00b8dcc5-5d74-4c9c-84e9-229036d786f5" />
+<img width="1000" height="1000" alt="FOXP1-20260413" src="https://github.com/user-attachments/assets/90328fa0-1b6f-4f7f-99a9-364fa898db57" />
+<img width="1000" height="1000" alt="HMGA2-20260413" src="https://github.com/user-attachments/assets/020dcc41-7e68-48d2-848d-dc297478e55c" />
+<img width="1000" height="1000" alt="STK4-20260413" src="https://github.com/user-attachments/assets/0f7bfd4d-819d-4f49-9f9f-be354ae381cf" />
+<img width="1000" height="1000" alt="UPF3A-20260413" src="https://github.com/user-attachments/assets/0174b0e0-1a1e-47aa-a5fa-ae9abc5403f0" />
+
+
+
