@@ -16,7 +16,7 @@ R --no-save < bG2bW.R
 ```
 bash run_mBWsummary.bash
 ```
-  - Differential expression analysis by [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) library
+  - Differential expression (DE) analysis by [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) library
 ```
 R --no-save < 27-DE.R
 ```
@@ -32,4 +32,8 @@ R --no-save < 27-DE.R
   - counting was performed using [bigWigAverageOverBed](https://github.com/ENCODE-DCC/kentUtils/tree/master/src/utils/bigWigAverageOverBed)
 ```
 bigWigAverageOverBed input.bw tileWin20kB.bed out.tab
+```
+  - DE analysis was done in the same way, *ARH3+PARP1 double-ko* (AP1) used as the reference
+```
+R --no-save < ADPr-DE.R
 ```
