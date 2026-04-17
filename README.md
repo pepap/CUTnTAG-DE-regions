@@ -27,4 +27,9 @@ R --no-save < 27-DE.R
 <img width="1000" height="700" alt="ARH3ko_vs_WT--K27Ac-K27Met-20260410" src="https://github.com/user-attachments/assets/a7821b0c-5c42-4dcd-9938-2bca4d22f1b4" />
 
   
-  - the **average scores** aprroach didn't work for ADPr data. After manual inspection I switched to the **sum of the scores** in every genomic region
+- the **average scores** aprroach didn't work for ADPr data. After [manual inspection in UCSC browser](https://genome-euro.ucsc.edu/s/pepap/Debbie%2D%2DCUTnTAG%2Dhg38%2Dall) I switched to the **sum of the scores** in every genomic region. 
+  - the length of one tiled region was optimized to 20kB
+  - counting was performed using [bigWigAverageOverBed](https://github.com/ENCODE-DCC/kentUtils/tree/master/src/utils/bigWigAverageOverBed)
+```
+bigWigAverageOverBed input.bw tileWin20kB.bed out.tab
+```
