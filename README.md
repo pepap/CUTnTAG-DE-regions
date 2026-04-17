@@ -17,9 +17,9 @@ R --no-save < bG2bW.R
   bash run_mBWsummary.bash
   ```
   - Differential expression (DE) analysis by [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) library
-```
-R --no-save < 27-DE.R
-```
+  ```
+    R --no-save < 27-DE.R
+  ```
   - Disregulated K27acet/met3 regions highlighted on the RNA-seq data (ARH3 vs. WT) :
     - for each gene an upstream flank region of 5 kB was included
     - genes overlapped with up- AND down-regulated tiled regions were labeled as *ambiguous* (there is a typo in the picture legend) 
