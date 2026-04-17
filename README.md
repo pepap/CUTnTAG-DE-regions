@@ -30,10 +30,10 @@ R --no-save < bG2bW.R
 - The **average scores** aprroach didn't work for ADPr data. After [manual inspection in UCSC browser](https://genome-euro.ucsc.edu/s/pepap/Debbie%2D%2DCUTnTAG%2Dhg38%2Dall) I switched to the **sum of the scores** in every genomic region. 
   - the length of one tiled region was optimized to 20kB
   - counting was performed using [bigWigAverageOverBed](https://github.com/ENCODE-DCC/kentUtils/tree/master/src/utils/bigWigAverageOverBed)
-```
-bigWigAverageOverBed input.bw tileWin20kB.bed out.tab
-```
+  ```
+  bigWigAverageOverBed input.bw tileWin20kB.bed out.tab
+  ```
   - DE analysis was done in the same way, *ARH3+PARP1 double-ko* (AP1) used as the reference
-```
-R --no-save < ADPr-DE.R
-```
+  ```
+  R --no-save < ADPr-DE.R
+  ```
