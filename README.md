@@ -14,7 +14,7 @@ R --no-save < bG2bW.R
   - default output file *DS-CUTnTAG-anal--tile1kB-avrSum.npz* does not contain the coordinates of the tiles - the additional text file *DS-CUTnTAG-anal--tile1kB-avrSum.tab.gz* used instead
   - running for ~ 10 minutes
   ```
-bash run_mBWsummary.bash
+  bash run_mBWsummary.bash
   ```
   - Differential expression (DE) analysis by [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) library
 ```
