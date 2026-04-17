@@ -1,6 +1,6 @@
 # CUTnTAG-DE-regions
 
-## <ins>convert bedGraphs to bigWig</ins>
+## <ins>> convert bedGraphs to bigWig</ins>
 Run in R (4.5.1) :
 ```
 R --no-save < bG2bW.R
